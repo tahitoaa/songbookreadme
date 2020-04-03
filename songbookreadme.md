@@ -1,4 +1,4 @@
-# Répertoire Collaboratif (songbook-collab)
+# [Répertoire Collaboratif songbook.pdf](songbook.pdf)
 
 Ce répertoire s'inspire directement du très bon [carnet de chant tahitiansongs](http://tahitiansongs.fr/wp-content/uploads/2011/11/carnet_de_chants2.pdf) ainsi que du site collaboratif [paroles de webfenua](http://paroles.webfenua.com/list.php) qui permet à chacun de modifier les chansons. Dans notre projet on essaye de combiner les deux idées: faire un joli pdf avec des chansons que tout le monde peut ajouter.
 
