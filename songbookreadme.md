@@ -16,8 +16,8 @@ Le fichier principal est `songbook.tex` qui liste les chansons à inclure. Il es
 # Mode d'emploi
 
 Ce projet utilise le package `songs` du langage Latex pour générer le répertoire.
-La documentation officielle du package est disponible ici: http://mirrors.standaloneinstaller.com/ctan/macros/latex/contrib/songs/songs.pdf
- ou bien là : http://songs.sourceforge.net/songsdoc/songs.html
+La documentation officielle du package est disponible [ici](http://mirrors.standaloneinstaller.com/ctan/macros/latex/contrib/songs/songs.pdf) et [là](http://songs.sourceforge.net/songsdoc/songs.html)
+
 ## Ajouter une chanson
 
 Ouvrir le projet depuis overleaf: https://fr.overleaf.com/9457921969mhjkwjdnycqj
