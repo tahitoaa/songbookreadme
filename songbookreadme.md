@@ -41,6 +41,8 @@ Exemple: `\[E] When i fell in love with \[A]you`.
 
 Le bémol se note `&` exemple `\[E&]`.
 
+On peut indiquer un capo avec `\capo{2}` (capo sur la deuxième).
+
 ## Orthographe pour le tahitien
 
 * Pour le tarava sur un 'a' : `\={a}`
