@@ -51,5 +51,5 @@ Le bémol se note `&` exemple `\[E&]`.
 * Définir la classification de songs (guit/uke/nochords ou bien /anglais/francais/tahitien ? ou autre ? )
 * Mettre des jolies couleurs
 * Faire des transpositions automatiques
-
+* Ajouter des liens pour les vidéos
 
