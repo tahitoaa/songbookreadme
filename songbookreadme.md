@@ -52,4 +52,5 @@ Le bémol se note `&` exemple `\[E&]`.
 * Mettre des jolies couleurs
 * Faire des transpositions automatiques
 * Ajouter des liens pour les vidéos
+* Mettre à jour le input path
 
