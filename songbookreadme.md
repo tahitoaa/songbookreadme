@@ -43,6 +43,8 @@ Le bémol se note `&` exemple `\[E&]`.
 
 On peut indiquer un capo avec `\capo{2}` (capo sur la deuxième).
 
+On peut transposer la suite du verse ou du chorus avec `\transpose{2}` pour transposer de deux notes.
+
 ## Orthographe pour le tahitien
 
 * Pour le tarava sur un 'a' : `\={a}`
