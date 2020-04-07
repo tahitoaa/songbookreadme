@@ -16,16 +16,28 @@ Le fichier principal est `songbook.tex` qui liste les chansons à inclure. Il es
 Ce projet utilise le package `songs` du langage Latex pour générer le répertoire.
 La documentation officielle du package est disponible [ici](http://mirrors.standaloneinstaller.com/ctan/macros/latex/contrib/songs/songs.pdf) et [là](http://songs.sourceforge.net/songsdoc/songs.html)
 
-## Ajouter une chanson
+Le projet est accessible depuis [ce lien](https://fr.overleaf.com/9457921969mhjkwjdnycqj).
+
+### Compilation : comment générer le pdf ?
+
+Le pdf est généré à partir de tous les fichiers dont le nom finit par `.tex`. Tous ces fichiers doivent respecter la syntaxe du langage informatique Latex. Si un de ces fichiers comporte une erreur de frappe ou de syntaxe, le pdf ne sera pas généré et overleaf affichera des erreurs. En cas de doutes concernant la syntaxe, se référer aux autres chansons déjà ajoutées.
+
+L'étape de génération du pdf s'apelle aussi la *compilation*. Pour compiler, il suffit d'appuyer sur `CTRL + S` ou bien de cliquer sur le bouton vert `Recompiler`. Overleaf va alors afficher le pdf.
+
+### Commentaires :  comment ignorer du code à la compilation.
+
+Si une seule ligne pose problème, c'est-à-dire qu'elle génère une erreur lors de la compilation, on peut l'ignorer en la faisant commencer par `%`. Toutes les lignes qui commencent par `%` seront ignorées lors de la compilation. On peut utiliser le `%` pour insérer des commentaires dans le code, pour mettre une remarque ou un rappel par exemple. 
+
+## Comment ajouter une chanson ?
 
 (Regarder d'abord dans [tahitiansongs](http://tahitiansongs.fr/wp-content/uploads/2011/11/carnet_de_chants2.pdf) si elle n'y est pas déjà) 
 
-Ouvrir le projet depuis overleaf: https://fr.overleaf.com/9457921969mhjkwjdnycqj
+Ouvrir le projet overleaf depuis [ce lien](https://fr.overleaf.com/9457921969mhjkwjdnycqj)
 
-* 1) Créer un fichier `<chanson>.tex` dans un des repertoires de `songs`.
-* 2) Copier le contenu d'une chanson qui existe ou bien regarder la section *Syntaxe d'une chanson* ci-dessous pour écrire les paroles.
-* 3) Une fois les paroles écrites dans`<chanson>.tex`, il faut l'ajouter au fichier `songbook.tex` pour qu'elle soit incluse dans le répertoire. Pour cela chanson ajouter une ligne `\input{songs/*/*.tex}` dans le fichier `songbook.tex` là ou se trouvent les autres chansons. 
-* 4) Appuyer sur le bouton `Recompiler` en vert, le répertoire sera généré si il n'y a pas d'erreur dans le code.
+1) Créer un fichier `<chanson>.tex` dans un des repertoires de `songs`.
+2) Copier le contenu d'une chanson qui existe ou bien regarder la section *Syntaxe d'une chanson* ci-dessous pour écrire les paroles.
+3) Une fois les paroles écrites dans`<chanson>.tex`, il faut l'ajouter au fichier `songbook.tex` pour qu'elle soit incluse dans le répertoire. Pour cela chanson ajouter une ligne `\input{songs/*/*.tex}` dans le fichier `songbook.tex` là ou se trouvent les autres chansons. 
+4) Appuyer sur le bouton `Recompiler` en vert, le répertoire sera généré si il n'y a pas d'erreur dans le code.
 
 ## Syntaxe d'une chanson
 
@@ -54,7 +66,7 @@ On peut transposer la suite du verse ou du chorus avec `\transpose{2}` pour tran
 * Gérer les index et la tableofcontents
 * Définir la classification de songs (guit/uke/nochords ou bien /anglais/francais/tahitien ? ou autre ? )
 * Mettre des jolies couleurs
-* Faire des transpositions automatiques
+* Faire des transpositions automatiques, et personnalisables.
 * Ajouter des liens pour les vidéos
 * Mettre à jour le input path
 
