@@ -1,12 +1,31 @@
+
+Une des dernières versions du [Répertoire Collaboratif songbook.pdf](songbook.pdf).
+
 # Introduction
 
-Dernière version du [Répertoire Collaboratif songbook.pdf](songbook.pdf).
+Ce projet s'inspire directement du très bon [carnet de chant tahitiansongs](http://tahitiansongs.fr/wp-content/uploads/2011/11/carnet_de_chants2.pdf) ainsi que du site collaboratif [paroles de webfenua](http://paroles.webfenua.com/list.php) qui permet à chacun de modifier les chansons.
 
-Ce projet s'inspire directement du très bon [carnet de chant tahitiansongs](http://tahitiansongs.fr/wp-content/uploads/2011/11/carnet_de_chants2.pdf) ainsi que du site collaboratif [paroles de webfenua](http://paroles.webfenua.com/list.php) qui permet à chacun de modifier les chansons. Dans notre projet on essaye de combiner les deux idées: faire un joli pdf avec des chansons que tout le monde peut ajouter.
+Dans notre projet on essaye de combiner les deux idées: faire un joli pdf avec des chansons que tout le monde peut ajouter, corriger, . notamment on pourra le personnaliser en transposant les chansons pour les adapter à sa voix.
 
 Pour participer il suffit de créer un compte overleaf en suivant [ce lien](https://fr.overleaf.com/9457921969mhjkwjdnycqj).
 
-Il ne s'agit pas de recopier les paroles déjà présente dans le [carnet de chant tahitiansongs](http://tahitiansongs.fr/wp-content/uploads/2011/11/carnet_de_chants2.pdf), mais plutôt de mettre les dernières nouveautés ou d'inclure les accords dans des chansons disponnible sur [paroles.webfenua](http://paroles.webfenua.com/list.php). De plus, on ne se restreint pas uniquement aux chansons tahitiennes toutes les langues/genres étant les bienvenues.
+Liens utiles:
+
+  - Le site:            http://tahitiansongs.fr/ 
+  
+  contient également des tablatures de ukulele et surtout le répertoire qui inspiré ce projet qui contient une centaine de chansons :
+  
+  [carnet de chant tahitiansongs](http://tahitiansongs.fr/wp-content/uploads/2011/11/carnet_de_chants2.pdf)
+  
+  - Site collaboratif de paroles de chansons tahitiennes, beaucoup de chansons même rares, ou anciennes, mais les paroles
+  sont souvent approximatives ou mal orthographiées: 
+  
+      http://paroles.webfenua.com/list.php
+      
+  - Application permettant d'extraire les notes de guitare ou ukulele depuis une vidéo youtube:
+  
+      https://chordify.net/
+
 
 Les chansons sont stockées dans `songs`. Chaque dossier dqns `songs` correspond à une section dans le songbook.
 Le fichier principal est `songbook.tex` qui liste les chansons à inclure. Il est généré automatiquement par le script `makemain.py` ou bien avec la commande `make`, mais on peut le modifier pour vérifier qu'une chanson compile.
@@ -24,7 +43,7 @@ Le pdf est généré à partir de tous les fichiers dont le nom finit par `.tex`
 
 L'étape de génération du pdf s'apelle aussi la *compilation*. Pour compiler, il suffit d'appuyer sur `CTRL + S` ou bien de cliquer sur le bouton vert `Recompiler`. Overleaf va alors afficher le pdf.
 
-### Commentaires :  comment ignorer du code à la compilation.
+### Commentaires :  comment ignorer du code à la compilation ?
 
 Si une seule ligne pose problème, c'est-à-dire qu'elle génère une erreur lors de la compilation, on peut l'ignorer en la faisant commencer par `%`. Toutes les lignes qui commencent par `%` seront ignorées lors de la compilation. On peut utiliser le `%` pour insérer des commentaires dans le code, pour mettre une remarque ou un rappel par exemple. 
 
@@ -41,7 +60,8 @@ Ouvrir le projet overleaf depuis [ce lien](https://fr.overleaf.com/9457921969mhj
 
 ## Syntaxe d'une chanson
 
-Les paroles d'une chanson doivent êtres écrites entre: `\beginsong{__titre__}[by={__auteur__}]` et `\endsong`, en remplacant bien `__titre__` et `__auteur__`.
+Une chanson doit commencer par `\beginsong{__titre__}[by={__auteur__}]` en remplacant le `__titre__` et `__auteur__`.
+et doit finir par `\endsong`.
 
 On peut découper les paroles en `\beginverse` `\endverse` ou bien `\beginchorus` et `\endchorus`.
 
@@ -55,7 +75,9 @@ Le bémol se note `&` exemple `\[E&]`.
 
 On peut indiquer un capo avec `\capo{2}` (capo sur la deuxième).
 
-On peut transposer la suite du verse ou du chorus avec `\transpose{2}` pour transposer de deux notes.
+On peut transposer les notes avec `\transpose{2}` pour transposer de deux notes.
+On peut placer `\transpose{2}` après `\beginverse`, après `\beginchorus` ou bien `\beginsong` selon que l'on veut
+transposer toute la chanson ou juste une partie.
 
 ## Orthographe pour le tahitien
 
