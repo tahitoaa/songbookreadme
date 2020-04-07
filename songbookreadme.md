@@ -1,5 +1,5 @@
 
-Une des dernières versions du [Répertoire Collaboratif songbook.pdf](songbook.pdf).
+Le [songbook.pdf](songbook.pdf) (version du 3 avril 2020).
 
 # Introduction
 
@@ -60,8 +60,7 @@ Ouvrir le projet overleaf depuis [ce lien](https://fr.overleaf.com/9457921969mhj
 
 ## Syntaxe d'une chanson
 
-Une chanson doit commencer par `\beginsong{__titre__}[by={__auteur__}]` en remplacant le `__titre__` et `__auteur__`.
-et doit finir par `\endsong`.
+Une chanson doit commencer par `\beginsong{__titre__}[by={__auteur__}]` (remplacer `__titre__` et `__auteur__`) et doit finir par `\endsong`.
 
 On peut découper les paroles en `\beginverse` `\endverse` ou bien `\beginchorus` et `\endchorus`.
 
