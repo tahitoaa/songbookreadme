@@ -62,11 +62,12 @@ Ouvrir le projet overleaf depuis [ce lien](https://fr.overleaf.com/9457921969mhj
 
 Une chanson doit commencer par 
 ```
-\beginsong{__titre__}[by={__auteur__}]
+\beginsong{Titre de la Chanson}[by={Toto le chanteur de la chanson}]
 \transpose{\shift}
 ``` 
-(remplacer `__titre__` et `__auteur__`) et doit finir par 
-```\endsong```.
+et doit finir par 
+```\endsong```
+.
 
 On peut découper les paroles en `\beginverse` `\endverse` ou bien `\beginchorus` et `\endchorus`.
 
@@ -116,11 +117,10 @@ On peut transposer les notes avec `\transpose{n}`(remplacer *n* par 1, 2, 3 ...)
 On peut placer `\transpose{n}` après `\beginverse`, après `\beginchorus` ou bien `\beginsong` selon que l'on veut
 transposer toute la chanson ou juste une partie.
 
-On peut décider de transposer toutes les chansons du répertoire (sans modifier les fichiers `songs/*/<chanson>.tex` en ajoutant dans `songbook.tex` la commande suivante:
-
-```\renewcommand{\shift}{n}```
-
-(remplacer *n* par le nombre de notes à transposer en comptant les demi-tons).
+On peut décider de transposer toutes les chansons du répertoire (sans modifier les fichiers `songs/*/<chanson>.tex`).
+Pour cela, modifier la ligne 2 de `songbook.tex`:
+```\renewcommand{\shift}{0}```
+(remplacer 0 par le nombre de notes à transposer en comptant les demi-tons).
 
 ### Personnalisation
 
