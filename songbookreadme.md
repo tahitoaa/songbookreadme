@@ -125,17 +125,18 @@ Et le remplir en s'inspirant de `songbook.tex` comme suit:
 
 ```
 \input{./struct/header.tex}
-\songsection{Nom de la Section}
+
+\title{Custo Perso de Toto}
+\author{Titi}
+
+\input{./struct/introduction.tex}
+\songsection{Titi}
 \begin{songs}{titlidx,authidx}
-\input{./songs/nochords/Chanson1.tex}
-\input{./songs/nochords/Chanson2.tex}
-...
+\input{./songs/withchords/AitutakiParadise.tex}
+\input{./songs/withchords/YouAreMySunshine.tex}
 \end{songs}
 
-\songsection{Nom de la Section 2}
-...
-
-\input{./struct/header.tex}
+\input{./struct/foot.tex}
 ``` 
 ## Orthographe pour le tahitien
 
