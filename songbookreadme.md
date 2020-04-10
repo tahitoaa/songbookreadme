@@ -60,7 +60,13 @@ Ouvrir le projet overleaf depuis [ce lien](https://fr.overleaf.com/9457921969mhj
 
 ## Syntaxe d'une chanson
 
-Une chanson doit commencer par `\beginsong{__titre__}[by={__auteur__}]` (remplacer `__titre__` et `__auteur__`) et doit finir par `\endsong`.
+Une chanson doit commencer par 
+```
+\beginsong{__titre__}[by={__auteur__}]
+\transpose{\shift}
+``` 
+(remplacer `__titre__` et `__auteur__`) et doit finir par 
+```\endsong```.
 
 On peut découper les paroles en `\beginverse` `\endverse` ou bien `\beginchorus` et `\endchorus`.
 
@@ -72,7 +78,7 @@ Exemple: `\[E] When i fell in love with \[A]you`.
 
 Le bémol se note `&` exemple `\[E&]`.
 
-Exemple de chanson.
+Exemple de chanson : 
 ```
 \beginsong{You are my sunshine}[by=Kimie]
 \transpose{\shift}
