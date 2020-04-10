@@ -66,7 +66,9 @@ Une chanson doit commencer par
 \transpose{\shift}
 ``` 
 et doit finir par 
-```\endsong```
+```
+\endsong
+```
 .
 
 On peut découper les paroles en `\beginverse` `\endverse` ou bien `\beginchorus` et `\endchorus`.
@@ -143,7 +145,8 @@ Et le remplir en s'inspirant de `songbook.tex` comme suit:
 \end{songs}
 
 \input{./struct/foot.tex}
-``` 
+```
+
 ## Orthographe pour le tahitien
 
 * Pour le tarava sur un 'a' : `\={a}`
