@@ -72,12 +72,71 @@ Exemple: `\[E] When i fell in love with \[A]you`.
 
 Le bémol se note `&` exemple `\[E&]`.
 
-On peut indiquer un capo avec `\capo{2}` (capo sur la deuxième).
+Exemple de chanson.
+```
+\beginsong{You are my sunshine}[by=Kimie]
+\transpose{\shift}
 
-On peut transposer les notes avec `\transpose{2}` pour transposer de deux notes.
-On peut placer `\transpose{2}` après `\beginverse`, après `\beginchorus` ou bien `\beginsong` selon que l'on veut
+\beginverse
+\[A7]You are my \[D]sunshine my only sunshine 
+\[D7]You make me \[G]happy when skies are \[D]grey
+You'll never \[G]know dear how much i \[D] love you \[Bm]
+\[A#]please don't \[E7]take my \[A7]sunshine a\[D]way
+
+O oe ho'o kahi 
+Ku'ulahulali
+Ku'uho'ohau \[G] o li 
+Ke \[Em]kalinei \[D]au 
+Mai hele\[G]aku e noho \[D]mai \[Bm] \[A#]
+E a\[E7]loha no hau ia \[D]oe
+\endverse
+
+\beginchorus
+This little light of mine im gonna let it shine 
+\[G]This little light of mine im gonna let it shine
+This little light of mine im gonna let it \[D]shine
+let it \[E]shine
+Let it \[A]shine
+Let it \[D]shine 
+\endchorus
+\endsong
+```
+
+### Transposition
+
+On peut indiquer un capo avec `\capo{2}` (capo sur la deuxième). L'usage du capo apparaîtra dans la chanson mais cela n'affecte pas les notes affichées.
+
+On peut transposer les notes avec `\transpose{n}`(remplacer *n* par 1, 2, 3 ...) pour transposer de *n* notes (en comptant les demi-tons).
+On peut placer `\transpose{n}` après `\beginverse`, après `\beginchorus` ou bien `\beginsong` selon que l'on veut
 transposer toute la chanson ou juste une partie.
 
+On peut décider de transposer toutes les chansons du répertoire (sans modifier les fichiers `songs/*/<chanson>.tex` en ajoutant dans `songbook.tex` la commande suivante:
+
+```\renewcommand{\shift}{n}```
+
+(remplacer *n* par le nombre de notes à transposer en comptant les demi-tons).
+
+### Personnalisation
+
+Il est possible de générer un répertoire personnalisé qui contient uniquement certaines chansons (parmi toutes celles disponnible dans le projet). On peut aussi définir soit-même les valeurs de transposition pour chaque chanson.
+
+Pour créer un répertoire personnalisé, créer un nouveau fichier `toto.tex` dans le répertoire `custoperso`.
+Et le remplir en s'inspirant de `songbook.tex` comme suit:
+
+```
+\input{./struct/header.tex}
+\songsection{Nom de la Section}
+\begin{songs}{titlidx,authidx}
+\input{./songs/nochords/Chanson1.tex}
+\input{./songs/nochords/Chanson2.tex}
+...
+\end{songs}
+
+\songsection{Nom de la Section 2}
+...
+
+\input{./struct/header.tex}
+``` 
 ## Orthographe pour le tahitien
 
 * Pour le tarava sur un 'a' : `\={a}`
