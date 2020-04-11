@@ -1,5 +1,5 @@
 
-Le [songbook.pdf](songbook.pdf) (version du 3 avril 2020).
+Le [songbook.pdf](songbook.pdf) (version du 11 avril 2020).
 
 # Introduction
 
