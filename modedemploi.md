@@ -92,18 +92,33 @@ Let it \[D]shine
 
 On peut indiquer un capo avec `\capo{2}` (capo sur la deuxième). L'usage du capo apparaîtra dans la chanson mais cela n'affecte pas les notes affichées.
 
-On peut transposer les notes avec `\transpose{n}`(remplacer *n* par 1, 2, 3 ...) pour transposer de *n* notes (en comptant les demi-tons).
+#### Transposer les notes à l'intérieur d'une chanson
+
+On peut transposer les notes d'une chanon (fichier `<chansons>.tex`).
+Attention la chanson sera transposée dans tous le répertoire principal.
+
+Utiliser `\transpose{n}`(remplacer *n* par 1, 2, 3 ...) pour transposer de *n* notes (en comptant les demi-tons).
 On peut placer `\transpose{n}` après `\beginverse`, après `\beginchorus` ou bien `\beginsong` selon que l'on veut
 transposer toute la chanson ou juste une partie.
 
+#### Transposer toutes les chansons du répertoire 
+
 On peut décider de transposer toutes les chansons du répertoire (sans modifier les fichiers `songs/*/<chanson>.tex`).
-Pour cela, modifier la ligne 2 de `songbook.tex`:
-```\renewcommand{\shift}{0}```
-(remplacer 0 par le nombre de notes à transposer en comptant les demi-tons).
+Pour cela, modifier la ligne 2 de `songbook.tex` en remplacant le 0 par le nombre de notes à transposer:
+```
+\input{./struct/header.tex}
+\renewcommand{\shift}{0}
+\input{./struct/introduction.tex}
+```
+(en comptant les demi-tons).
+
+Pour transposer uniquement certaines chansons de manières différentes, adaptée à sa voix et à la chanson, se référer à [Faire un répertoire personnel](###faire-un-repertoire-personnel) ci-dessous.
 
 ### Faire un répertoire personnel
 
-Il est possible de générer un répertoire personnalisé qui contient uniquement certaines chansons (parmi toutes celles disponnible dans le projet). On peut aussi définir soit-même les valeurs de transposition pour chaque chanson.
+Il est possible de générer un répertoire personnalisé qui contient:
+ * uniquement certaines chansons (parmi toutes celles disponnible dans le projet);
+ * les valeurs de transposition personnelles pour chaque chanson.
 
 Pour créer un répertoire personnalisé, créer un nouveau fichier `toto.tex` dans le répertoire `custoperso`.
 Et le remplir en s'inspirant de `songbook.tex` comme suit:
