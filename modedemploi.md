@@ -4,7 +4,7 @@
 * [Ajouter une chanson](##ajouter-une-chanson)
 * [Syntaxe d'une chanson](##syntaxe-dune-chanson)
 * [Transposer une ou toutes les chansons](##transposer-une-ou-toutes-les-chansons)
-* [Faire un répertoire personnel](##Faire un répertoire personnel)
+* [Faire un répertoire personnel](##faire-un-répertoire-personnel)
 
 Ce projet utilise le package `songs` du langage Latex pour générer le répertoire.
 La documentation officielle du package est disponible [ici](http://mirrors.standaloneinstaller.com/ctan/macros/latex/contrib/songs/songs.pdf) et [là](http://songs.sourceforge.net/songsdoc/songs.html)
