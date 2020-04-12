@@ -128,7 +128,7 @@ Il est possible de générer un répertoire personnalisé qui contient:
  * uniquement certaines chansons (parmi toutes celles disponnible dans le projet);
  * les valeurs de transposition personnelles pour chaque chanson.
 
-Pour créer un répertoire personnalisé, créer un nouveau fichier `toto.tex` dans le répertoire `custoperso`.
+Pour créer un répertoire personnalisé, créer un nouveau fichier `custototo.tex` dans le répertoire `custoperso`.
 Et le remplir en s'inspirant de `songbook.tex` comme suit:
 
 ```
@@ -150,3 +150,7 @@ Et le remplir en s'inspirant de `songbook.tex` comme suit:
 ```
 
 La chanson2 sera transposée de 3 notes. Les autres ne seront pas transposées (transposés de 0).
+
+Pour compiler ce répertoire perso:
+* en haut à gauche `Menu` > `Document principal` > `custototo.tex`;
+* appuyer sur `CTRL + S` ou bien de cliquer sur le bouton vert `Recompiler`.
