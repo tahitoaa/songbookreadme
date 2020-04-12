@@ -106,7 +106,7 @@ On peut indiquer un capo avec `\capo{2}` (capo sur la deuxième). L'usage du cap
 #### Transposer les notes à l'intérieur d'une chanson
 
 On peut transposer les notes d'une chanon (fichier `<chansons>.tex`).
-Attention la chanson sera transposée dans tous le répertoire principal.
+Attention la chanson sera transposée dans tout le répertoire principal.
 
 Utiliser `\transpose{n}`(remplacer *n* par 1, 2, 3 ...) pour transposer de *n* notes (en comptant les demi-tons).
 On peut placer `\transpose{n}` après `\beginverse`, après `\beginchorus` ou bien `\beginsong` selon que l'on veut
