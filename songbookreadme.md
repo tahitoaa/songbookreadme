@@ -9,7 +9,18 @@ Dans notre projet on essaye de combiner les deux idées: faire un joli pdf avec 
 
 Pour participer il suffit de créer un compte overleaf en suivant [ce lien](https://fr.overleaf.com/9457921969mhjkwjdnycqj).
 
-Liens utiles:
+# [Mode d'emploi](modedemploi.md)
+
+* [Générer le pdf](https://github.com/tahitoaa/songbookreadme/blob/master/modedemploi.md#g%C3%A9n%C3%A9rer-le-pdf)
+* [Ajouter une chanson](https://github.com/tahitoaa/songbookreadme/blob/master/modedemploi.md#ajouter-une-chanson)
+* [Syntaxe d'une chanson](https://github.com/tahitoaa/songbookreadme/blob/master/modedemploi.md#syntaxe-dune-chanson)
+* [Transposer une ou toutes les chansons](https://github.com/tahitoaa/songbookreadme/blob/master/modedemploi.md#transposer-une-ou-toutes-les-chansons)
+* [Faire un répertoire personnel](https://github.com/tahitoaa/songbookreadme/blob/master/modedemploi.md#faire-un-répertoire-personnel)
+
+# [Paroles en tahitien](tahitien.md)
+
+
+# Liens utiles:
 
   - Le site:            http://tahitiansongs.fr/ 
   
@@ -25,20 +36,6 @@ Liens utiles:
   - Application permettant d'extraire les notes de guitare ou ukulele depuis une vidéo youtube:
   
       https://chordify.net/
-
-
-Les chansons sont stockées dans `songs`. Chaque dossier dqns `songs` correspond à une section dans le songbook.
-Le fichier principal est `songbook.tex` qui liste les chansons à inclure. Il est généré automatiquement par le script `makemain.py` ou bien avec la commande `make`, mais on peut le modifier pour vérifier qu'une chanson compile.
-
-# [Mode d'emploi](modedemploi.md)
-
-* [Générer le pdf](https://github.com/tahitoaa/songbookreadme/blob/master/modedemploi.md#g%C3%A9n%C3%A9rer-le-pdf)
-* [Ajouter une chanson](https://github.com/tahitoaa/songbookreadme/blob/master/modedemploi.md#ajouter-une-chanson)
-* [Syntaxe d'une chanson](https://github.com/tahitoaa/songbookreadme/blob/master/modedemploi.md#syntaxe-dune-chanson)
-* [Transposer une ou toutes les chansons](https://github.com/tahitoaa/songbookreadme/blob/master/modedemploi.md#transposer-une-ou-toutes-les-chansons)
-* [Faire un répertoire personnel](https://github.com/tahitoaa/songbookreadme/blob/master/modedemploi.md#faire-un-répertoire-personnel)
-
-# [Paroles en tahitien](tahitien.md)
 
 # TODO
 * Gérer les index et la tableofcontents
