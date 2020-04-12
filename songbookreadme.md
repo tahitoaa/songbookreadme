@@ -44,7 +44,5 @@ Le fichier principal est `songbook.tex` qui liste les chansons à inclure. Il es
 * Gérer les index et la tableofcontents
 * Définir la classification de songs (guit/uke/nochords ou bien /anglais/francais/tahitien ? ou autre ? )
 * Mettre des jolies couleurs
-* Faire des transpositions automatiques, et personnalisables.
 * Ajouter des liens pour les vidéos
-* Mettre à jour le input path
 
