@@ -5,6 +5,7 @@
 * [Syntaxe d'une chanson](##syntaxe-dune-chanson)
 * [Transposer une ou toutes les chansons](##transposer-une-ou-toutes-les-chansons)
 * [Faire un répertoire personnel](##faire-un-répertoire-personnel)
+* [Gérer les index](##gerer-les-indexes)
 * [Retour au Readme](songbookreadme.md)
 
 Ce projet utilise le package `songs` du langage Latex pour générer le répertoire.
@@ -158,5 +159,7 @@ La chanson2 sera transposée de 3 notes. Les autres ne seront pas transposées (
 Pour compiler ce répertoire perso:
 * en haut à gauche `Menu` > `Document principal` > `custototo.tex`;
 * appuyer sur `CTRL + S` ou bien de cliquer sur le bouton vert `Recompiler`.
+
+# Gérer les index
 
 # [Retour au Readme](songbookreadme.md)
