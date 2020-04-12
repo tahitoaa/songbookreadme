@@ -15,7 +15,13 @@ Le projet est accessible depuis [ce lien](https://fr.overleaf.com/9457921969mhjk
 
 Le pdf est généré à partir de tous les fichiers dont le nom finit par `.tex`. Tous ces fichiers doivent respecter la syntaxe du langage informatique Latex. Si un de ces fichiers comporte une erreur de frappe ou de syntaxe, le pdf ne sera pas généré et overleaf affichera des erreurs. En cas de doutes concernant la syntaxe, se référer aux autres chansons déjà ajoutées.
 
-L'étape de génération du pdf s'apelle aussi la *compilation*. Pour compiler, il suffit d'appuyer sur `CTRL + S` ou bien de cliquer sur le bouton vert `Recompiler`. Overleaf va alors afficher le pdf.
+L'étape de génération du pdf s'apelle aussi la *compilation*. 
+
+Pour compiler:
+* en haut à gauche `Menu` > `Document principal` > `songbook.tex`;
+* appuyer sur `CTRL + S` ou bien de cliquer sur le bouton vert `Recompiler`. 
+
+Overleaf va alors afficher le pdf.
 
 Si une seule ligne pose problème, c'est-à-dire qu'elle génère une erreur lors de la compilation, on peut l'ignorer en la faisant commencer par `%`. Toutes les lignes qui commencent par `%` seront ignorées lors de la compilation. On peut utiliser le `%` pour insérer des commentaires dans le code, pour mettre une remarque ou un rappel par exemple. 
 
