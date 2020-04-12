@@ -74,7 +74,9 @@ Exemple de chanson :
 \[D7]You make me \[G]happy when skies are \[D]grey
 You'll never \[G]know dear how much i \[D] love you \[Bm]
 \[A#]please don't \[E7]take my \[A7]sunshine a\[D]way
+\endverse
 
+\beginverse
 O oe ho'o kahi 
 Ku'ulahulali
 Ku'uho'ohau \[G] o li 
