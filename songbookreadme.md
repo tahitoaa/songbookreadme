@@ -5,7 +5,7 @@ Le [songbook.pdf](songbook.pdf) (version du 11 avril 2020).
 
 Ce projet s'inspire directement du très bon [carnet de chant tahitiansongs](http://tahitiansongs.fr/wp-content/uploads/2011/11/carnet_de_chants2.pdf) ainsi que du site collaboratif [paroles de webfenua](http://paroles.webfenua.com/list.php) qui permet à chacun de modifier les chansons.
 
-Dans notre projet on essaye de combiner les deux idées: faire un joli pdf avec des chansons que tout le monde peut ajouter, corriger, . notamment on pourra le personnaliser en transposant les chansons pour les adapter à sa voix.
+Dans notre projet on essaye de combiner les deux idées: faire un joli pdf avec des chansons que tout le monde peut ajouter, corriger. Notamment on pourra le personnaliser en transposant les chansons pour les adapter à sa voix.
 
 Pour participer il suffit de créer un compte overleaf en suivant [ce lien](https://fr.overleaf.com/9457921969mhjkwjdnycqj).
 
@@ -17,10 +17,9 @@ Pour participer il suffit de créer un compte overleaf en suivant [ce lien](http
 * [Transposer une ou toutes les chansons](https://github.com/tahitoaa/songbookreadme/blob/master/modedemploi.md#transposer-une-ou-toutes-les-chansons)
 * [Faire un répertoire personnel](https://github.com/tahitoaa/songbookreadme/blob/master/modedemploi.md#faire-un-répertoire-personnel)
 
-# [Paroles en tahitien](tahitien.md)
+# [Chansons en tahitien](tahitien.md)
 
-
-# Liens utiles:
+# Liens utiles
 
   - Le site:            http://tahitiansongs.fr/ 
   
