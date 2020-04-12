@@ -110,10 +110,10 @@ transposer toute la chanson ou juste une partie.
 #### Transposer toutes les chansons du répertoire 
 
 On peut décider de transposer toutes les chansons du répertoire (sans modifier les fichiers `songs/*/<chanson>.tex`).
-Pour cela, modifier la ligne 2 de `songbook.tex` en remplacant le 0 par le nombre de notes à transposer:
+Pour cela, modifier la ligne 2 de `songbook.tex` en remplacant le *n* par le nombre de notes à transposer:
 ```
 \input{./struct/header.tex}
-\renewcommand{\shift}{0}
+\renewcommand{\shift}{n}
 \input{./struct/introduction.tex}
 ```
 (en comptant les demi-tons).
@@ -131,16 +131,20 @@ Et le remplir en s'inspirant de `songbook.tex` comme suit:
 
 ```
 \input{./struct/header.tex}
-
 \title{Custo Perso de Toto}
 \author{Titi}
-
-\input{./struct/introduction.tex}
+\maketitle
+%% \input{./struct/introduction.tex}
 \songsection{Titi}
 \begin{songs}{titlidx,authidx}
-\input{./songs/withchords/AitutakiParadise.tex}
-\input{./songs/withchords/YouAreMySunshine.tex}
+\chanson{NomDeLaChanson1.tex}{0}
+\chanson{NomDeLaChanson2.tex}{3}
 \end{songs}
-
+\songsection{tata}
+\begin{songs}{titlidx,authidx}
+\chanson{NomDeLaChanson3.tex}{0}
+\end{songs}
 \input{./struct/foot.tex}
 ```
+
+La chanson2 sera transposée de 3 notes. Les autres ne seront pas transposées (transposés de 0).
