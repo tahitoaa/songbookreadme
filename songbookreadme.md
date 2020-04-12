@@ -32,10 +32,7 @@ Le fichier principal est `songbook.tex` qui liste les chansons à inclure. Il es
 
 # [Mode d'emploi](modedemploi.md)
 
-## Orthographe pour le tahitien
-
-* Pour le tarava sur un 'a' : `\={a}`
-* Pour le 'eta juste mettre le ': `'a`
+## [Orthographe du tahitien](tahitien.md)
 
 # TODO
 * Gérer les index et la tableofcontents
