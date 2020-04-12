@@ -1,10 +1,11 @@
-# Mode d'emploi ([Retour au Readme](songbookreadme.md))
+# Mode d'emploi
 
 * [Générer le pdf](##generer-le-pdf)
 * [Ajouter une chanson](##ajouter-une-chanson)
 * [Syntaxe d'une chanson](##syntaxe-dune-chanson)
 * [Transposer une ou toutes les chansons](##transposer-une-ou-toutes-les-chansons)
 * [Faire un répertoire personnel](##faire-un-répertoire-personnel)
+* [Retour au Readme](songbookreadme.md)
 
 Ce projet utilise le package `songs` du langage Latex pour générer le répertoire.
 La documentation officielle du package est disponible [ici](http://mirrors.standaloneinstaller.com/ctan/macros/latex/contrib/songs/songs.pdf) et [là](http://songs.sourceforge.net/songsdoc/songs.html)
@@ -157,3 +158,5 @@ La chanson2 sera transposée de 3 notes. Les autres ne seront pas transposées (
 Pour compiler ce répertoire perso:
 * en haut à gauche `Menu` > `Document principal` > `custototo.tex`;
 * appuyer sur `CTRL + S` ou bien de cliquer sur le bouton vert `Recompiler`.
+
+# [Retour au Readme](songbookreadme.md)
