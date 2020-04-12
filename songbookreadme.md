@@ -30,6 +30,7 @@ Liens utiles:
 Les chansons sont stockées dans `songs`. Chaque dossier dqns `songs` correspond à une section dans le songbook.
 Le fichier principal est `songbook.tex` qui liste les chansons à inclure. Il est généré automatiquement par le script `makemain.py` ou bien avec la commande `make`, mais on peut le modifier pour vérifier qu'une chanson compile.
 
+# [Mode d'emploi](modedemploi.md)
 
 ## Orthographe pour le tahitien
 
