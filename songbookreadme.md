@@ -32,7 +32,7 @@ Le fichier principal est `songbook.tex` qui liste les chansons à inclure. Il es
 
 # [Mode d'emploi](modedemploi.md)
 
-## [Orthographe du tahitien](tahitien.md)
+# [Paroles en tahitien](tahitien.md)
 
 # TODO
 * Gérer les index et la tableofcontents
