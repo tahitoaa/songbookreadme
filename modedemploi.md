@@ -1,21 +1,30 @@
 # Mode d'emploi
 
+* [Générer le pdf](##generer-le-pdf)
+* [Ajouter une chanson](##ajouter-une-chanson)
+* [Syntaxe d'une chanson](##syntaxe-dune-chanson)
+* [Transposer une ou toutes les chansons](##transposer-une-ou-toutes-les-chansons)
+* [Faire un répertoire personnel](##Faire un répertoire personnel)
+
 Ce projet utilise le package `songs` du langage Latex pour générer le répertoire.
 La documentation officielle du package est disponible [ici](http://mirrors.standaloneinstaller.com/ctan/macros/latex/contrib/songs/songs.pdf) et [là](http://songs.sourceforge.net/songsdoc/songs.html)
 
 Le projet est accessible depuis [ce lien](https://fr.overleaf.com/9457921969mhjkwjdnycqj).
 
-### Compilation : comment générer le pdf ?
+## Générer le pdf 
 
 Le pdf est généré à partir de tous les fichiers dont le nom finit par `.tex`. Tous ces fichiers doivent respecter la syntaxe du langage informatique Latex. Si un de ces fichiers comporte une erreur de frappe ou de syntaxe, le pdf ne sera pas généré et overleaf affichera des erreurs. En cas de doutes concernant la syntaxe, se référer aux autres chansons déjà ajoutées.
 
 L'étape de génération du pdf s'apelle aussi la *compilation*. Pour compiler, il suffit d'appuyer sur `CTRL + S` ou bien de cliquer sur le bouton vert `Recompiler`. Overleaf va alors afficher le pdf.
 
-### Commentaires :  comment ignorer du code à la compilation ?
-
 Si une seule ligne pose problème, c'est-à-dire qu'elle génère une erreur lors de la compilation, on peut l'ignorer en la faisant commencer par `%`. Toutes les lignes qui commencent par `%` seront ignorées lors de la compilation. On peut utiliser le `%` pour insérer des commentaires dans le code, pour mettre une remarque ou un rappel par exemple. 
 
-## Comment ajouter une chanson ?
+```
+% Cette ligne n'apparait pas dans le pdf
+Cette ligne apparait dans le pdf
+```
+
+## Ajouter une chanson
 
 (Regarder d'abord dans [tahitiansongs](http://tahitiansongs.fr/wp-content/uploads/2011/11/carnet_de_chants2.pdf) si elle n'y est pas déjà) 
 
@@ -79,7 +88,7 @@ Let it \[D]shine
 \endsong
 ```
 
-### Transposition
+### Transposer une ou toutes les chansons
 
 On peut indiquer un capo avec `\capo{2}` (capo sur la deuxième). L'usage du capo apparaîtra dans la chanson mais cela n'affecte pas les notes affichées.
 
@@ -92,7 +101,7 @@ Pour cela, modifier la ligne 2 de `songbook.tex`:
 ```\renewcommand{\shift}{0}```
 (remplacer 0 par le nombre de notes à transposer en comptant les demi-tons).
 
-### Personnalisation
+### Faire un répertoire personnel
 
 Il est possible de générer un répertoire personnalisé qui contient uniquement certaines chansons (parmi toutes celles disponnible dans le projet). On peut aussi définir soit-même les valeurs de transposition pour chaque chanson.
 
