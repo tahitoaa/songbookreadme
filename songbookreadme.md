@@ -32,8 +32,8 @@ Le fichier principal est `songbook.tex` qui liste les chansons à inclure. Il es
 
 # [Mode d'emploi](modedemploi.md)
 
-* [Générer le pdf](##generer-le-pdf)
-* [Ajouter une chanson](##ajouter-une-chanson)
+* [Générer le pdf](modedemploi.md##generer-le-pdf)
+* [Ajouter une chanson](modedemploi.md##ajouter-une-chanson)
 * [Syntaxe d'une chanson](##syntaxe-dune-chanson)
 * [Transposer une ou toutes les chansons](##transposer-une-ou-toutes-les-chansons)
 * [Faire un répertoire personnel](##faire-un-répertoire-personnel)
