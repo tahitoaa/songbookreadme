@@ -1,4 +1,4 @@
-# Mode d'emploi
+# Mode d'emploi ([Retour au Readme](songbookreadme.md))
 
 * [Générer le pdf](##generer-le-pdf)
 * [Ajouter une chanson](##ajouter-une-chanson)
