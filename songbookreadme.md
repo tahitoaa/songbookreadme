@@ -18,7 +18,7 @@ Pour participer il suffit de créer un compte overleaf en suivant [ce lien](http
 * [Faire un répertoire personnel](https://github.com/tahitoaa/songbookreadme/blob/master/modedemploi.md#faire-un-répertoire-personnel)
 * [Gérer les index](https://github.com/tahitoaa/songbookreadme/blob/master/modedemploi.md#gerer-les-index)
 
-# [Chansons en polynésiennes](poly.md)
+# [Chansons polynésiennes](poly.md)
 
 # Liens utiles
 
