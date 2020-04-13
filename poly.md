@@ -1,12 +1,13 @@
-# Chansons en tahitien
+# Orthographe des langues polynésiennes
 
-On peut vérifier l'orthographe d'un mot en tahitien depuis le site de l'[académie tahitienne](http://www.farevanaa.pf/dictionnaire.php).
+Pour les chansons polynésiennes on essaiera de respecter au mieux l'orthographe (pour garder la signification) des paroles.
 
-On essaiera de respecter notamment de respecter l'orthographe de l'académie.
+## Les accents
 
 * Pour le tarava sur un 'a' : `\={a}` ou bien `\=a`
 * Pour le 'eta juste mettre le ': `'a`
 
-# Chansons des îles Cook
+##  Références pour l'orthographe
 
-On peut vérifier l'orthographe d'un mot en Rarotoga depuis le site de le [dictionnaire](http://cookislandsdictionary.com).
+* Tahitien : [le site de l'académie tahitienne](http://www.farevanaa.pf/dictionnaire.php).
+* Rarotoga : [un dictionnaire des langues des îles Cook](http://cookislandsdictionary.com).
