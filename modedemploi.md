@@ -33,6 +33,12 @@ Si une seule ligne pose problème, c'est-à-dire qu'elle génère une erreur lor
 ```latex
 % Cette ligne n'apparait pas dans le pdf
 Cette ligne apparait dans le pdf
+
+% On peut utiliser les % pour ajouter des commentaires dans le code
+% sans qu'il ne soit visible dans le pdf
+
+Pa la li          % Ceci est aussi un commentaire (a partir du pourcent)
+Pa la la          % pas dormir
 ```
 
 ## Ajouter une chanson
