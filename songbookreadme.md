@@ -15,8 +15,11 @@ Présentation du répertoire:
 ```bash
 ├───songs/               dossier contenant toutes les chansons 
 │   ├───nochords/        chansons sans les tablatures
+|   |   └───chanson1.tex
 │   └───withchords/      chansons avec les tablatures
+|   |   └───chanson2.tex
 ├───custoperso/          dossier contenant les répertoires persos (listes de chansons avec transposition perso)
+|   |   └───custopersodetoto.tex
 └───struct/              ne pas toucher (structure du document)
 └───songbook.tex         fichier principal (liste des chansons avec les paramètres de transposition)
 ```
