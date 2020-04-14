@@ -11,6 +11,17 @@ Pour participer il suffit de créer un compte overleaf en suivant [ce lien](http
 
 # [Mode d'emploi](modedemploi.md)
 
+Présentation du répertoire:
+```bash
+├───songs/               dossier contenant toutes les chansons 
+│   ├───nochords/        chansons sans les tablatures
+│   └───withchords/      chansons avec les tablatures
+├───custoperso/          dossier contenant les répertoires persos (listes de chansons avec transposition perso)
+└───struct/              ne pas toucher (structure du document)
+└───songbook.tex         fichier principal (liste des chansons avec les paramètres de transposition)
+```
+
+
 * [Générer le pdf](https://github.com/tahitoaa/songbookreadme/blob/master/modedemploi.md#g%C3%A9n%C3%A9rer-le-pdf)
 * [Ajouter une chanson](https://github.com/tahitoaa/songbookreadme/blob/master/modedemploi.md#ajouter-une-chanson)
 * [Syntaxe d'une chanson](https://github.com/tahitoaa/songbookreadme/blob/master/modedemploi.md#syntaxe-dune-chanson)
