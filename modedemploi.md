@@ -30,7 +30,7 @@ Overleaf va alors afficher le pdf.
 
 Si une seule ligne pose problème, c'est-à-dire qu'elle génère une erreur lors de la compilation, on peut l'ignorer en la faisant commencer par `%`. Toutes les lignes qui commencent par `%` seront ignorées lors de la compilation. On peut utiliser le `%` pour insérer des commentaires dans le code, pour mettre une remarque ou un rappel par exemple. 
 
-```
+```latex
 % Cette ligne n'apparait pas dans le pdf
 Cette ligne apparait dans le pdf
 ```
@@ -49,12 +49,12 @@ Ouvrir le projet overleaf depuis [ce lien](https://fr.overleaf.com/9457921969mhj
 ## Syntaxe d'une chanson
 
 Une chanson doit commencer par 
-```
+```latex
 \beginsong{Titre de la Chanson}[by={Toto le chanteur de la chanson}]
 \transpose{\shift}
 ``` 
 et doit finir par 
-```
+```latex
 \endsong
 ```
 .
@@ -70,7 +70,7 @@ Exemple: `\[E] When i fell in love with \[A]you`.
 Le bémol se note `&` exemple `\[E&]`.
 
 Exemple de chanson : 
-```
+```latex
 \beginsong{You are my sunshine}[by=Kimie]
 \transpose{\shift}
 
@@ -118,7 +118,7 @@ transposer toute la chanson ou juste une partie.
 
 On peut décider de transposer toutes les chansons du répertoire (sans modifier les fichiers `songs/*/<chanson>.tex`).
 Pour cela, modifier la ligne 2 de `songbook.tex` en remplacant le *n* par le nombre de notes à transposer:
-```
+```latex
 \input{./struct/header.tex}
 \renewcommand{\shift}{n}
 \input{./struct/introduction.tex}
@@ -136,7 +136,7 @@ Il est possible de générer un répertoire personnalisé qui contient:
 Pour créer un répertoire personnalisé, créer un nouveau fichier `custototo.tex` dans le répertoire `custoperso`.
 Et le remplir en s'inspirant de `songbook.tex` comme suit:
 
-```
+```latex
 \input{./struct/header.tex}
 \title{Custo Perso de Toto}
 \author{Titi}
