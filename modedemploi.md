@@ -189,13 +189,12 @@ On peut choisir d'écrire une chanson en utilisant les notes solfège `LA SI DO 
 
 ## Pour changer l'affichage des notes dans le pdf
 
-Ajouter cette ligne:
+Dans le fichier de custo perso (ex: dans `custodetoto.tex`), ajouter cette ligne:
+
 ```latex
 \notenamesout{LA}{SI}{DO}{RE}{MI}{FA}{SOL}
 ```
-
-Dans le fichier principal avant la première section du répertoire.
-
+avant la premiere section de chanson.
 
 # Gérer les index
 
