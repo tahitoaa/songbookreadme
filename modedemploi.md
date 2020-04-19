@@ -50,7 +50,7 @@ Ouvrir le projet overleaf depuis [ce lien](https://fr.overleaf.com/9457921969mhj
 1) Créer un fichier `<chanson>.tex` dans un des repertoires de `songs`.
 2) Copier le contenu d'une chanson qui existe ou bien regarder la section *Syntaxe d'une chanson* ci-dessous pour écrire les paroles.
 3) Une fois les paroles écrites dans`<chanson>.tex`, il faut l'ajouter au fichier `songbook.tex` pour qu'elle soit incluse dans le répertoire. Pour cela chanson ajouter une ligne `\input{songs/*/*.tex}` dans le fichier `songbook.tex` là ou se trouvent les autres chansons. 
-4) Appuyer sur le bouton `Recompiler` en vert, le répertoire sera généré si il n'y a pas d'erreur dans le code.
+4) `Menu` > `Document principal` > `songbook.tex` puis appuyer sur le bouton `Recompiler` en vert, le répertoire sera généré si il n'y a pas d'erreur dans le code.
 
 ## Syntaxe d'une chanson
 
