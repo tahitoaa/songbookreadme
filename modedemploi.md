@@ -5,6 +5,7 @@
 * [Syntaxe d'une chanson](##syntaxe-dune-chanson)
 * [Transposer une ou toutes les chansons](##transposer-une-ou-toutes-les-chansons)
 * [Faire un répertoire personnel](##faire-un-répertoire-personnel)
+* [Utiliser la notation solfege](##utiliser-la-notation-solfege)
 * [Gérer les index](##gerer-les-indexes)
 * [Retour au Readme](songbookreadme.md)
 
@@ -165,6 +166,36 @@ La chanson2 sera transposée de 3 notes. Les autres ne seront pas transposées (
 Pour compiler ce répertoire perso:
 * en haut à gauche `Menu` > `Document principal` > `custototo.tex`;
 * appuyer sur `CTRL + S` ou bien de cliquer sur le bouton vert `Recompiler`.
+
+### Utiliser la notation solfege
+
+### Pour écrire les paroles
+
+Par défaut, on utilise la notation `A B C D E F G` pour l'écriture des notes.
+
+On peut choisir d'écrire une chanson en utilisant les notes solfège `LA SI DO RE MI FA SOL` en ajoutant la ligne `\notenames`:
+
+```latex
+\beginsong{Ua here au ia oe}[by={cez}]
+
+% Pour ecrire des notes en francais
+% (dans cette chanson uniquement)
+% aoujter la ligne suivante avant le \transpose
+
+\notenames{LA}{SI}{DO}{RE}{MI}{FA}{SOL}
+
+\transpose{\shift}
+```
+
+### Pour changer l'affichage des notes dans le pdf
+
+Ajouter cette ligne:
+```latex
+\notenamesout{LA}{SI}{DO}{RE}{MI}{FA}{SOL}
+```
+
+Dans le fichier principal avant la première section du répertoire.
+
 
 # Gérer les index
 
