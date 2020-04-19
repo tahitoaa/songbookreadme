@@ -167,7 +167,7 @@ Pour compiler ce répertoire perso:
 * en haut à gauche `Menu` > `Document principal` > `custototo.tex`;
 * appuyer sur `CTRL + S` ou bien de cliquer sur le bouton vert `Recompiler`.
 
-### Utiliser la notation solfege
+## Utiliser la notation solfege
 
 ### Pour écrire les paroles
 
