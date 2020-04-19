@@ -1,12 +1,12 @@
 # Mode d'emploi
 
-* [Générer le pdf](##generer-le-pdf)
-* [Ajouter une chanson](##ajouter-une-chanson)
-* [Syntaxe d'une chanson](##syntaxe-dune-chanson)
-* [Transposer une ou toutes les chansons](##transposer-une-ou-toutes-les-chansons)
-* [Faire un répertoire personnel](##faire-un-répertoire-personnel)
-* [Utiliser la notation solfege](##utiliser-la-notation-solfege)
-* [Gérer les index](##gerer-les-indexes)
+* [Générer le pdf](#generer-le-pdf)
+* [Ajouter une chanson](#ajouter-une-chanson)
+* [Syntaxe d'une chanson](#syntaxe-dune-chanson)
+* [Transposer une ou toutes les chansons](#transposer-une-ou-toutes-les-chansons)
+* [Faire un répertoire personnel](#faire-un-répertoire-personnel)
+* [Utiliser la notation solfege](#utiliser-la-notation-solfege)
+* [Gérer les index](#gerer-les-indexes)
 * [Retour au Readme](songbookreadme.md)
 
 Ce projet utilise le package `songs` du langage Latex pour générer le répertoire.
@@ -17,7 +17,7 @@ Le projet est accessible depuis [ce lien](https://fr.overleaf.com/9457921969mhjk
 Les chansons sont stockées dans `songs`. Chaque dossier dqns `songs` correspond à une section dans le songbook.
 Le fichier principal est `songbook.tex` qui liste les chansons à inclure. Il est généré automatiquement par le script `makemain.py` ou bien avec la commande `make`, mais on peut le modifier pour vérifier qu'une chanson compile.
 
-## Générer le pdf 
+# Générer le pdf 
 
 Le pdf est généré à partir de tous les fichiers dont le nom finit par `.tex`. Tous ces fichiers doivent respecter la syntaxe du langage informatique Latex. Si un de ces fichiers comporte une erreur de frappe ou de syntaxe, le pdf ne sera pas généré et overleaf affichera des erreurs. En cas de doutes concernant la syntaxe, se référer aux autres chansons déjà ajoutées.
 
@@ -53,7 +53,7 @@ Ouvrir le projet overleaf depuis [ce lien](https://fr.overleaf.com/9457921969mhj
 3) Une fois les paroles écrites dans`<chanson>.tex`, il faut l'ajouter au fichier `songbook.tex` pour qu'elle soit incluse dans le répertoire. Pour cela chanson ajouter une ligne `\input{songs/*/*.tex}` dans le fichier `songbook.tex` là ou se trouvent les autres chansons. 
 4) `Menu` > `Document principal` > `songbook.tex` puis appuyer sur le bouton `Recompiler` en vert, le répertoire sera généré si il n'y a pas d'erreur dans le code.
 
-## Syntaxe d'une chanson
+# Syntaxe d'une chanson
 
 Une chanson doit commencer par 
 ```latex
@@ -108,11 +108,11 @@ Let it \[D]shine
 \endsong
 ```
 
-### Transposer une ou toutes les chansons
+## Transposer une ou toutes les chansons
 
 On peut indiquer un capo avec `\capo{2}` (capo sur la deuxième). L'usage du capo apparaîtra dans la chanson mais cela n'affecte pas les notes affichées.
 
-#### Transposer les notes à l'intérieur d'une chanson
+### Transposer les notes à l'intérieur d'une chanson
 
 On peut transposer les notes d'une chanon (fichier `<chansons>.tex`).
 Attention la chanson sera transposée dans tout le répertoire principal.
@@ -121,7 +121,7 @@ Utiliser `\transpose{n}`(remplacer *n* par 1, 2, 3 ...) pour transposer de *n* n
 On peut placer `\transpose{n}` après `\beginverse`, après `\beginchorus` ou bien `\beginsong` selon que l'on veut
 transposer toute la chanson ou juste une partie.
 
-#### Transposer toutes les chansons du répertoire 
+### Transposer toutes les chansons du répertoire 
 
 On peut décider de transposer toutes les chansons du répertoire (sans modifier les fichiers `songs/*/<chanson>.tex`).
 Pour cela, modifier la ligne 2 de `songbook.tex` en remplacant le *n* par le nombre de notes à transposer:
@@ -134,7 +134,7 @@ Pour cela, modifier la ligne 2 de `songbook.tex` en remplacant le *n* par le nom
 
 Pour transposer uniquement certaines chansons de manières différentes, adaptée à sa voix et à la chanson, se référer à [Faire un répertoire personnel](###faire-un-repertoire-personnel) ci-dessous.
 
-### Faire un répertoire personnel
+## Faire un répertoire personnel
 
 Il est possible de générer un répertoire personnalisé qui contient:
  * uniquement certaines chansons (parmi toutes celles disponnible dans le projet);
@@ -167,9 +167,9 @@ Pour compiler ce répertoire perso:
 * en haut à gauche `Menu` > `Document principal` > `custototo.tex`;
 * appuyer sur `CTRL + S` ou bien de cliquer sur le bouton vert `Recompiler`.
 
-## Utiliser la notation solfege
+# Utiliser la notation solfege
 
-### Pour écrire les paroles
+## Pour écrire les paroles
 
 Par défaut, on utilise la notation `A B C D E F G` pour l'écriture des notes.
 
@@ -187,7 +187,7 @@ On peut choisir d'écrire une chanson en utilisant les notes solfège `LA SI DO 
 \transpose{\shift}
 ```
 
-### Pour changer l'affichage des notes dans le pdf
+## Pour changer l'affichage des notes dans le pdf
 
 Ajouter cette ligne:
 ```latex
