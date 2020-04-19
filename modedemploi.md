@@ -42,7 +42,7 @@ Pa la li          % Ceci est aussi un commentaire (a partir du pourcent)
 Pa la la          % pas dormir
 ```
 
-## Ajouter une chanson
+# Ajouter une chanson
 
 (Regarder d'abord dans [tahitiansongs](http://tahitiansongs.fr/wp-content/uploads/2011/11/carnet_de_chants2.pdf) si elle n'y est pas déjà) 
 
@@ -108,11 +108,11 @@ Let it \[D]shine
 \endsong
 ```
 
-## Transposer une ou toutes les chansons
+# Transposer une ou toutes les chansons
 
 On peut indiquer un capo avec `\capo{2}` (capo sur la deuxième). L'usage du capo apparaîtra dans la chanson mais cela n'affecte pas les notes affichées.
 
-### Transposer les notes à l'intérieur d'une chanson
+## Transposer les notes à l'intérieur d'une chanson
 
 On peut transposer les notes d'une chanon (fichier `<chansons>.tex`).
 Attention la chanson sera transposée dans tout le répertoire principal.
@@ -121,7 +121,7 @@ Utiliser `\transpose{n}`(remplacer *n* par 1, 2, 3 ...) pour transposer de *n* n
 On peut placer `\transpose{n}` après `\beginverse`, après `\beginchorus` ou bien `\beginsong` selon que l'on veut
 transposer toute la chanson ou juste une partie.
 
-### Transposer toutes les chansons du répertoire 
+## Transposer toutes les chansons du répertoire 
 
 On peut décider de transposer toutes les chansons du répertoire (sans modifier les fichiers `songs/*/<chanson>.tex`).
 Pour cela, modifier la ligne 2 de `songbook.tex` en remplacant le *n* par le nombre de notes à transposer:
@@ -134,7 +134,7 @@ Pour cela, modifier la ligne 2 de `songbook.tex` en remplacant le *n* par le nom
 
 Pour transposer uniquement certaines chansons de manières différentes, adaptée à sa voix et à la chanson, se référer à [Faire un répertoire personnel](###faire-un-repertoire-personnel) ci-dessous.
 
-## Faire un répertoire personnel
+# Faire un répertoire personnel
 
 Il est possible de générer un répertoire personnalisé qui contient:
  * uniquement certaines chansons (parmi toutes celles disponnible dans le projet);
