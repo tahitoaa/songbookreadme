@@ -134,7 +134,6 @@ Pa la la          % pas dormir
  * N'importe quelle info potentiellement utile.
  
  Exemple:
- 
  ```latex
  \beginsong{You are my sunshine}[by=Kimie]
 \transpose{\shift}
@@ -162,12 +161,13 @@ transposer toute la chanson ou juste une partie.
 
 ## Transposer toutes les chansons du répertoire 
 
-On peut décider de transposer toutes les chansons du répertoire (sans modifier les fichiers `songs/*/<chanson>.tex`).
+On peut décider de transposer **TOUTES** les chansons du répertoire (sans modifier les fichiers `songs/*/<chanson>.tex`).
 Pour cela, modifier la ligne 2 de `songbook.tex` en remplacant le *n* par le nombre de notes à transposer:
 ```latex
 \input{./struct/header.tex}
 \renewcommand{\shift}{n}
 \input{./struct/introduction.tex}
+...
 ```
 (en comptant les demi-tons).
 
