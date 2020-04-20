@@ -9,13 +9,20 @@
 * [Gérer les index](#gerer-les-indexes)
 * [Retour au Readme](songbookreadme.md)
 
-Ce projet utilise le package `songs` du langage Latex pour générer le répertoire.
-La documentation officielle du package est disponible [ici](http://mirrors.standaloneinstaller.com/ctan/macros/latex/contrib/songs/songs.pdf) et [là](http://songs.sourceforge.net/songsdoc/songs.html)
+( Pour les personnes qui connaissent Latex: ce projet utilise le package `songs` du langage Latex pour générer le répertoire.
+La documentation officielle du package est disponible [ici](http://mirrors.standaloneinstaller.com/ctan/macros/latex/contrib/songs/songs.pdf) et [là](http://songs.sourceforge.net/songsdoc/songs.html) )
 
 Le projet est accessible depuis [ce lien](https://fr.overleaf.com/9457921969mhjkwjdnycqj).
 
-Les chansons sont stockées dans `songs`. Chaque dossier dqns `songs` correspond à une section dans le songbook.
-Le fichier principal est `songbook.tex` qui liste les chansons à inclure. Il est généré automatiquement par le script `makemain.py` ou bien avec la commande `make`, mais on peut le modifier pour vérifier qu'une chanson compile.
+Les chansons sont stockées dans `songs`. Chaque dossier dans `songs` correspond à une section dans le songbook.
+Le fichier principal est `songbook.tex` qui liste les chansons à inclure. 
+Il est regénéré automatiquement (plus ou moins régulièrement) pour inclure TOUTES les chansons contenues dans songs.
+
+Il y a deux choses à faire:
+  1) Ecrire une chanson (paroles avec ou sans les notes)
+  2) L'ajouter au fichier principal (`songbook.tex` par défaut ou bien un fichier perso dans `\curstoperso`)
+
+L'idée est d'écrire *une seule version de la chanson*  puis de la réutiliser dans les pdf de tout le monde en pouvant les transposer selon les préférences de chacun (sans changer les notes du fichier original).
 
 # Générer le pdf 
 
@@ -24,23 +31,10 @@ Le pdf est généré à partir de tous les fichiers dont le nom finit par `.tex`
 L'étape de génération du pdf s'apelle aussi la *compilation*. 
 
 Pour compiler:
-* en haut à gauche `Menu` > `Document principal` > `songbook.tex`;
+* en haut à gauche `Menu` > `Document principal` > `songbook.tex` (ou  bien n'importe quel fichier dans `\custoperso` pour voir les pdf des autres gens);
 * appuyer sur `CTRL + S` ou bien de cliquer sur le bouton vert `Recompiler`. 
 
 Overleaf va alors afficher le pdf.
-
-Si une seule ligne pose problème, c'est-à-dire qu'elle génère une erreur lors de la compilation, on peut l'ignorer en la faisant commencer par `%`. Toutes les lignes qui commencent par `%` seront ignorées lors de la compilation. On peut utiliser le `%` pour insérer des commentaires dans le code, pour mettre une remarque ou un rappel par exemple. 
-
-```latex
-% Cette ligne n'apparait pas dans le pdf
-Cette ligne apparait dans le pdf
-
-% On peut utiliser les % pour ajouter des commentaires dans le code
-% sans qu'il ne soit visible dans le pdf
-
-Pa la li          % Ceci est aussi un commentaire (a partir du pourcent)
-Pa la la          % pas dormir
-```
 
 # Ajouter une chanson
 
@@ -48,10 +42,18 @@ Pa la la          % pas dormir
 
 Ouvrir le projet overleaf depuis [ce lien](https://fr.overleaf.com/9457921969mhjkwjdnycqj)
 
-1) Créer un fichier `<chanson>.tex` dans un des repertoires de `songs`.
+1) Créer un fichier `TitreDeLaChansonToto.tex` dans un des repertoires de `songs`.
+
 2) Copier le contenu d'une chanson qui existe ou bien regarder la section *Syntaxe d'une chanson* ci-dessous pour écrire les paroles.
-3) Une fois les paroles écrites dans`<chanson>.tex`, il faut l'ajouter au fichier `songbook.tex` pour qu'elle soit incluse dans le répertoire. Pour cela chanson ajouter une ligne `\input{songs/*/*.tex}` dans le fichier `songbook.tex` là ou se trouvent les autres chansons. 
-4) `Menu` > `Document principal` > `songbook.tex` puis appuyer sur le bouton `Recompiler` en vert, le répertoire sera généré si il n'y a pas d'erreur dans le code.
+
+3) Une fois les paroles écrites dans`TitreDeLaChansonToto.tex`, il faut l'ajouter au fichier `songbook.tex` pour qu'elle soit incluse dans le répertoire. Pour cela chanson ajouter une ligne `\chanson{TitreDeLaChansonToto.tex}{0}` dans le fichier `songbook.tex` là ou se trouvent les autres chansons. 
+
+4) `Menu` > `Document principal` > `songbook.tex` puis appuyer sur le bouton `Recompiler` en vert, le répertoire sera généré si il n'y a pas d'erreur dans le code. 
+
+Chercher votre chanson dans le pdf.
+**Attention la chanson ne sera pas dans les index !**
+
+Si vous avez votre propre carnet de chant dans `\custoperso` (cf. [Faire un répertoire personnel](#faire-un-répertoire-personnel)) alors il faut remplacer `songbook.tex` par `custototo.tex`
 
 # Syntaxe d'une chanson
 
@@ -108,6 +110,43 @@ Let it \[D]shine
 \endsong
 ```
 
+
+## Les commentaires
+
+Si une seule ligne pose problème, c'est-à-dire qu'elle génère une erreur lors de la compilation, on peut l'ignorer en la faisant commencer par `%`. Toutes les lignes qui commencent par `%` seront ignorées lors de la compilation. On peut utiliser le `%` pour insérer des commentaires dans le code, pour mettre une remarque ou un rappel par exemple. 
+
+```latex
+% Cette ligne n'apparait pas dans le pdf
+Cette ligne apparait dans le pdf
+
+% On peut utiliser les % pour ajouter des commentaires dans le code
+% sans qu'il ne soit visible dans le pdf
+
+Pa la li          % Ceci est aussi un commentaire (a partir du pourcent)
+Pa la la          % pas dormir
+```
+
+### Suggestion de commentaires
+ Ce serait sympa de mettre en commentaire au début d'une chanson des informations comme :
+ * qui a écrit ajouté cette chanson (ou un pseudo rigolo);
+ * un lien vers une vidéo de la chanson (Plus tard j'essairai de faire apparâitre le lien dans le pdf);
+ * Des remarques comme, des doutes sur certaines paroles ou certaines notes;
+ * N'importe quelle info potentiellement utile.
+ 
+ Exemple:
+ 
+ ```latex
+ \beginsong{You are my sunshine}[by=Kimie]
+\transpose{\shift}
+
+% Ajouté par Toto
+% Vidéo (ou lien audio) www.youtubedetoto.com/chansondetoto
+% Doute sur toutes les paroles et sur certaines notes
+
+\beginverse
+\[A7]You are my \[D]sunshine my only sunshine 
+...
+ ```
 # Transposer une ou toutes les chansons
 
 On peut indiquer un capo avec `\capo{2}` (capo sur la deuxième). L'usage du capo apparaîtra dans la chanson mais cela n'affecte pas les notes affichées.
