@@ -46,7 +46,7 @@ Ouvrir le projet overleaf depuis [ce lien](https://fr.overleaf.com/9457921969mhj
 
 2) Copier le contenu d'une chanson qui existe ou bien regarder la section *Syntaxe d'une chanson* ci-dessous pour écrire les paroles.
 
-3) Une fois les paroles écrites dans`TitreDeLaChansonToto.tex`, il faut l'ajouter au fichier `songbook.tex` pour qu'elle soit incluse dans le répertoire. Pour cela chanson ajouter une ligne `\chanson{TitreDeLaChansonToto.tex}{0}` dans le fichier `songbook.tex` là ou se trouvent les autres chansons. 
+3) Une fois les paroles écrites dans`TitreDeLaChansonToto.tex`, il faut l'ajouter au fichier `songbook.tex` pour qu'elle soit incluse dans le répertoire. Pour cela chanson ajouter une ligne `\chanson{TitreDeLaChansonToto.tex}{0}` dans le fichier `songbook.tex` là ou se trouvent les autres chansons. Si je mets *2* au lieu de *0*, la chanson aparaitra transposée de 2 notes (ou demi-tons) dans le pdf (mais cela ne change pas les notes dans le fichier `TitreDeLaChansonToto.tex`.
 
 4) `Menu` > `Document principal` > `songbook.tex` puis appuyer sur le bouton `Recompiler` en vert, le répertoire sera généré si il n'y a pas d'erreur dans le code. 
 
