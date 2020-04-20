@@ -5,7 +5,7 @@
 * [Syntaxe d'une chanson](#syntaxe-dune-chanson)
 * [Transposer une ou toutes les chansons](#transposer-une-ou-toutes-les-chansons)
 * [Faire un répertoire personnel](#faire-un-répertoire-personnel)
-* [Utiliser la notation solfege](#utiliser-la-notation-solfege)
+* [Utiliser la notation solfege (Do re mi fa sol la si do)](#utiliser-la-notation-solfege)
 * [Gérer les index](#gerer-les-indexes)
 * [Retour au Readme](songbookreadme.md)
 
