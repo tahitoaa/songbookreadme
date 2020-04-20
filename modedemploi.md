@@ -208,7 +208,7 @@ Pour compiler ce répertoire perso:
 
 # Utiliser la notation solfege
 
-## Pour écrire les paroles
+## Pour écrire les paroles en Do Re Mi fa Sol (ne change pas l'affichage pdf)
 
 Par défaut, on utilise la notation `A B C D E F G` pour l'écriture des notes.
 
@@ -226,7 +226,7 @@ On peut choisir d'écrire une chanson en utilisant les notes solfège `LA SI DO 
 \transpose{\shift}
 ```
 
-## Pour changer l'affichage des notes dans le pdf
+## Pour changer l'affichage des notes dans le pdf en  Do Re Mi (sans changer les notes dans le fichier de paroles)
 
 Dans le fichier de custo perso (ex: dans `custodetoto.tex`), ajouter cette ligne:
 
