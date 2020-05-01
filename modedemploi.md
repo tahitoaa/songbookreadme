@@ -163,9 +163,7 @@ transposer toute la chanson ou juste une partie.
 On peut décider de transposer **TOUTES** les chansons du répertoire (sans modifier les fichiers `songs/*/<chanson>.tex`).
 Pour cela, modifier la ligne 2 de `songbook.tex` en remplacant le *n* par le nombre de notes à transposer:
 ```latex
-\input{./struct/header.tex}
-\renewcommand{\shift}{n}
-\input{./struct/introduction.tex}
+\TransposeTout{n}
 ...
 ```
 (en comptant les demi-tons).
