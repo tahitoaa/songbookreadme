@@ -26,12 +26,10 @@ L'idée est d'écrire *une seule version de la chanson*  puis de la réutiliser 
 
 # Générer le pdf 
 
-Le pdf est généré à partir de tous les fichiers dont le nom finit par `.tex`. Tous ces fichiers doivent respecter la syntaxe du langage informatique Latex. Si un de ces fichiers comporte une erreur de frappe ou de syntaxe, le pdf ne sera pas généré et overleaf affichera des erreurs. En cas de doutes concernant la syntaxe, se référer aux autres chansons déjà ajoutées.
-
 L'étape de génération du pdf s'apelle aussi la *compilation*. 
 
 Pour compiler:
-* en haut à gauche `Menu` > `Document principal` > `songbook.tex` (ou  bien n'importe quel fichier dans `\custoperso` pour voir les pdf des autres gens);
+* en haut à gauche `Menu` > `Document principal` > `songbook.tex` (ou  bien n'importe quel fichier dans `custoperso` pour voir les pdf des autres gens);
 * appuyer sur `CTRL + S` ou bien de cliquer sur le bouton vert `Recompiler`. 
 
 Overleaf va alors afficher le pdf.
@@ -42,7 +40,7 @@ Overleaf va alors afficher le pdf.
 
 Ouvrir le projet overleaf depuis [ce lien](https://fr.overleaf.com/9457921969mhjkwjdnycqj)
 
-1) Créer un fichier `TitreDeLaChansonToto.tex` dans un des repertoires de `songs`.
+1) Créer un fichier `TitreDeLaChansonToto.tex` dans un des repertoires de `songs` (clique droit sur `songs` `Nouveau Fichier`).
 
 2) Copier le contenu d'une chanson qui existe ou bien regarder la section *Syntaxe d'une chanson* ci-dessous pour écrire les paroles.
 
