@@ -178,59 +178,57 @@ Il est possible de générer un répertoire personnalisé qui contient:
  * uniquement certaines chansons (parmi toutes celles disponnible dans le projet);
  * les valeurs de transposition personnelles pour chaque chanson.
 
-Pour créer un répertoire personnalisé, créer un nouveau fichier `custototo.tex` dans le répertoire `custoperso`.
-Et le remplir en s'inspirant de `songbook.tex` comme suit:
-
+Pour créer un répertoire personnalisé:
+  * Cliquer-droit sur `custoperso`, > `Nouveau Fichier`, et le nommer `CommeTuVeux.tex`
+  
+Le remplir en s'inspirant de `songbook.tex` comme suit (par exemple copier-coller):
 ```latex
-\input{./struct/header.tex}
+\input{macro}
+\debut
 \title{Custo Perso de Toto}
 \author{Titi}
 \maketitle
-%% \input{./struct/introduction.tex}
-\songsection{Titi}
-\begin{songs}{titlidx,authidx}
-\chanson{NomDeLaChanson1.tex}{0}
-\chanson{NomDeLaChanson2.tex}{3}
-\end{songs}
-\songsection{tata}
-\begin{songs}{titlidx,authidx}
-\chanson{NomDeLaChanson3.tex}{0}
-\end{songs}
-\input{./struct/foot.tex}
+\introperso{Ce Répertoire est dédié à Toto. Pas dormir.}
+
+\partie{Titi}{
+\chanson{AitutakiParadise}{0}
+}
+
+\partie{Tata}{
+\chanson{UaHere}{2}
+}
+
+\fini
 ```
 
-La chanson2 sera transposée de 3 notes. Les autres ne seront pas transposées (transposés de 0).
+Le chiffre après la chanson correspond au nombres de notes à transposer par rapport au fichier de la chanson.
 
 Pour compiler ce répertoire perso:
-* en haut à gauche `Menu` > `Document principal` > `custototo.tex`;
+* en haut à gauche `Menu` > `Document principal` > `CommeTuVeux.tex`;
 * appuyer sur `CTRL + S` ou bien de cliquer sur le bouton vert `Recompiler`.
 
 # Utiliser la notation solfege
 
-## Pour écrire les paroles en Do Re Mi fa Sol (ne change pas l'affichage pdf)
-
 Par défaut, on utilise la notation `A B C D E F G` pour l'écriture des notes.
 
-On peut choisir d'écrire une chanson en utilisant les notes solfège `LA SI DO RE MI FA SOL` en ajoutant la ligne `\notenames`:
+## Pour écrire en Do Re Mi fa Sol
+
+Si tu veux ajouter les notes en Do Re Mi dans une chanson `Chanson.tex` il faut ajoute
+```latex
+\JecrisEnDoReMi``` avant le `\transpose{\shift}`.
 
 ```latex
 \beginsong{Ua here au ia oe}[by={cez}]
-
-% Pour ecrire des notes en francais
-% (dans cette chanson uniquement)
-% aoujter la ligne suivante avant le \transpose
-
-\notenames{LA}{SI}{DO}{RE}{MI}{FA}{SOL}
-
+\JecrisDoReMi
 \transpose{\shift}
 ```
 
-## Pour changer l'affichage des notes dans le pdf en  Do Re Mi (sans changer les notes dans le fichier de paroles)
-
-Dans le fichier de custo perso (ex: dans `custodetoto.tex`), ajouter cette ligne:
+## Pour affihcer en Do Re Mi 
+*Dans le pdf*
+Dans le fichier de custo perso (dans un fichier de `\custoperso\`, ajouter cette ligne:
 
 ```latex
-\notenamesout{LA}{SI}{DO}{RE}{MI}{FA}{SOL}
+\AfficheDoReMi
 ```
 avant la premiere section de chanson.
 
