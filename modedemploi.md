@@ -213,7 +213,9 @@ Par défaut, on utilise la notation `A B C D E F G` pour l'écriture des notes.
 
 Si tu veux ajouter les notes en Do Re Mi dans une chanson `Chanson.tex` il faut ajoute
 ```latex
-\JecrisEnDoReMi``` avant le `\transpose{\shift}`.
+\JecrisDoReMi
+``` 
+avant le `\transpose{\shift}`.
 
 ```latex
 \beginsong{Ua here au ia oe}[by={cez}]
@@ -226,7 +228,7 @@ Si tu veux ajouter les notes en Do Re Mi dans une chanson `Chanson.tex` il faut 
 Dans le fichier de custo perso (dans un fichier de `\custoperso\`, ajouter cette ligne:
 
 ```latex
-\AfficheDoReMi
+\AfficherDoReMi
 ```
 avant la premiere section de chanson.
 
