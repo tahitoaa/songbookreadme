@@ -51,10 +51,3 @@ Présentation du répertoire:
   - Application permettant d'extraire les notes de guitare ou ukulele depuis une vidéo youtube:
   
       https://chordify.net/
-
-# TODO
-* Gérer les index et la tableofcontents
-* Définir la classification de songs (guit/uke/nochords ou bien /anglais/francais/tahitien ? ou autre ? )
-* Mettre des jolies couleurs
-* Ajouter des liens pour les vidéos
-
