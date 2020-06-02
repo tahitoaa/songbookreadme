@@ -1,5 +1,5 @@
 
-Le [HimeneTatou.pdf](HimeneTatou.pdf) (version du 28 mai 2020).
+Le [HimeneTatou.pdf](HimeneTatou.pdf) (version du 2 juin 2020).
 
 # Introduction
 
