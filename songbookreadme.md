@@ -1,5 +1,4 @@
-
-Le [HimeneTatou.pdf](HimeneTatou.pdf) (version du 2 juin 2020).
+# [La dernière version du HimeneTatou.pdf](HimeneTatou.pdf) (version du 2 juin 2020).
 
 # Introduction
 
