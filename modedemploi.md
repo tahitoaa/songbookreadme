@@ -189,11 +189,11 @@ Le remplir en s'inspirant de `songbook.tex` comme suit (par exemple copier-colle
 \introperso{Ce Répertoire est dédié à Toto. Pas dormir.}
 
 \partie{Titi}{
-\chanson{AitutakiParadise}{0}
+\chanson{AitutakiParadise}
 }
 
 \partie{Tata}{
-\chanson{UaHere}{2}
+\chanson[2]{UaHere}
 }
 
 \fini
