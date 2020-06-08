@@ -1,5 +1,5 @@
-# La dernière version du [HimeneTatou.pdf](HimeneTatou.pdf)  (2 juin 2020).
-
+## La dernière version du [HimeneTatou.pdf](HimeneTatou.pdf)  (8 juin 2020).
+## [NEW] La version Vini est maintenant disponnible : [HimeneTatouNiuniu.pdf](HimeneTatouVini.pdf) (8 juin 2020).
 # Introduction
 
 Ce projet s'inspire directement du très bon [carnet de chant tahitiansongs](http://tahitiansongs.fr/wp-content/uploads/2011/11/carnet_de_chants2.pdf) ainsi que du site collaboratif [paroles de webfenua](http://paroles.webfenua.com/list.php) qui permet à chacun de modifier les chansons.
