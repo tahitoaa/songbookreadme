@@ -1,3 +1,8 @@
+---
+layout:post
+title: Mode d'emploi
+---
+
 # Mode d'emploi
 
 * [Générer le pdf](#generer-le-pdf)
