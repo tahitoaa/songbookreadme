@@ -12,7 +12,6 @@ Dans notre projet on essaye de combiner les deux idées: faire un joli pdf avec 
 Pour participer il suffit de créer un compte overleaf en suivant [ce lien](https://fr.overleaf.com/9457921969mhjkwjdnycqj).
 
 # [Mode d'emploi](modedemploi.md)
-
 Présentation du répertoire:
 ```bash
 ├───songs/               dossier contenant toutes les chansons 
@@ -25,16 +24,6 @@ Présentation du répertoire:
 └───struct/              ne pas toucher (structure du document)
 └───songbook.tex         fichier principal (liste des chansons avec les paramètres de transposition)
 ```
-
-
-* [Générer le pdf](https://github.com/tahitoaa/songbookreadme/blob/master/modedemploi.md#g%C3%A9n%C3%A9rer-le-pdf)
-* [Ajouter une chanson](https://github.com/tahitoaa/songbookreadme/blob/master/modedemploi.md#ajouter-une-chanson)
-* [Syntaxe d'une chanson](https://github.com/tahitoaa/songbookreadme/blob/master/modedemploi.md#syntaxe-dune-chanson)
-* [Transposer une ou toutes les chansons](https://github.com/tahitoaa/songbookreadme/blob/master/modedemploi.md#transposer-une-ou-toutes-les-chansons)
-* [Utiliser la notation solfege (Do re mi fa sol la si do)](https://github.com/tahitoaa/songbookreadme/blob/master/modedemploi.md#utiliser-la-notation-solfege)
-* [Faire un répertoire personnel](https://github.com/tahitoaa/songbookreadme/blob/master/modedemploi.md#faire-un-répertoire-personnel)
-* [Gérer les index](https://github.com/tahitoaa/songbookreadme/blob/master/modedemploi.md#gerer-les-index)
-
 # [Chansons polynésiennes](poly.md)
 
 # Liens utiles
