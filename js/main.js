@@ -1,4 +1,4 @@
-
+alert(0);
 const testFolder = './_post/';
 const fs = require('fs');
 alert(1);
