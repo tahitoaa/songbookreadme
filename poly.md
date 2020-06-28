@@ -22,7 +22,7 @@ Il existe aussi des dictionnaries en lignes pour le Maori, le Hawaiien etc...
 
 ![atlas](http://alex.francois.online.fr/img/Francois_ATLAS_2015_cover_m.jpg)
 
-Pour les personnes les plus intéressées, il existe un [Atlas des langues polynésiennes](http://alex.francois.online.fr/AF-ALPF_f.htm) disponnible au téléchargement [ici](http://alex.francois.online.fr/AF-ALPF_f.htm). L'atlas entier est très volumineux. C'est un document qui compare les différentes variations entre les dialectes des langues de la Polynésie Française: 
+Pour les personnes les plus intéressées, il existe un [Atlas linguistique des langues polynésiennes](http://alex.francois.online.fr/AF-ALPF_f.htm) disponnible au téléchargement [ici](http://alex.francois.online.fr/AF-ALPF_f.htm). L'atlas entier est très volumineux. C'est un document qui compare les différentes variations entre les dialectes des langues de la Polynésie Française: 
 
 ![carte_dialectes](http://alex.francois.online.fr/img/AlexFrancois_Atlas-PF-carte_2015_b.jpg)
 
@@ -30,4 +30,4 @@ Ce n'est pas un dictionnaire, et il faut parcourir le pdf pour retrouver un mot 
 
 ![exemple](http://alex.francois.online.fr/img/ALPF_1-1-2_2--charmant.png)
 
-[![Alt text](https://img.youtube.com/vi/e_D1FOzhbwc&/0.jpg)](https://www.youtube.com/watch?v=e_D1FOzhbwc&)
+[Conférence pour la publication de l'atlas](https://www.youtube.com/watch?v=e_D1FOzhbwc&)
