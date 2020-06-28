@@ -1,0 +1,23 @@
+
+
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+  <p>Before the script...</p>
+
+  <script>
+const testFolder = './_post/';
+const fs = require('fs');
+
+fs.readdirSync(testFolder).forEach(file => {
+  alert(file);
+});
+  </script>
+
+  <p>...After the script.</p>
+
+</body>
+
+</html>
