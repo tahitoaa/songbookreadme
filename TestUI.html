@@ -6,8 +6,17 @@
     </head>
     <body>
         <div id="text"> Coucou </div>
+        
+        <div id="demo"> Demo : </div>
          <script>
          document.getElementById("text").innerHTML = "Text added by JavaScript code";
+var person = prompt("Please enter your name", "Harry Potter");
+
+if (person != null) {
+  document.getElementById("demo").innerHTML =
+  "Hello " + person + "! How are you today?";
+} 
+          
          </script>
     </body>
 </html>
