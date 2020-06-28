@@ -30,4 +30,4 @@ Ce n'est pas un dictionnaire, et il faut parcourir le pdf pour retrouver un mot 
 
 ![exemple](http://alex.francois.online.fr/img/ALPF_1-1-2_2--charmant.png)
 
-![https://img.youtube.com/vi/e_D1FOzhbwc&/0.jpg](https://www.youtube.com/watch?v=e_D1FOzhbwc&)]
+![[Alt text](https://img.youtube.com/vi/e_D1FOzhbwc&/0.jpg)](https://www.youtube.com/watch?v=e_D1FOzhbwc&)
