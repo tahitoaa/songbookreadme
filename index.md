@@ -26,6 +26,8 @@ Présentation du répertoire:
 ```
 # [Chansons polynésiennes](poly.md)
 
+![carte_dialectes](http://alex.francois.online.fr/img/AlexFrancois_Atlas-PF-carte_2015_b.jpg)
+
 # Liens utiles
 
   - Le site:            http://tahitiansongs.fr/ 
