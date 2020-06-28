@@ -1,4 +1,4 @@
-# Orthographe des langues polynésiennes
+# Chansons polynésiennes
 
 *HimeneTatou* est ouvert aux chansons de toutes les langues mais les chansons polynésiennes seront mises en avant. En particulier les chansons anciennes ou rares.
 Ces chansons permettent de faire vivre *toutes* les différentes langues du pays et pas seulement le tahitien.
