@@ -28,4 +28,4 @@ function addChord(){
   var lyrics = conntent.value;
   alert(lyrics);
   content.innerHTML += lyrics.substr(0, pos) + "\\[C]" + lyrics.substr(pos);
-}
+} 
