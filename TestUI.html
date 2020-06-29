@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <h1> Formulaire pour ajouter une chanson au Himene Tatou </h1>
+        <h1> Himene Tatou </h1>
         <link rel="stylesheet" href="https://unpkg.com/@blaze/css@9.2.0/dist/blaze/blaze.css">
     </head>
     <body>
-      <div role="menu" class="c-card c-card--menu">
-        <button role="menuitem" class="c-card__control">Ajouter une nouvelle chanson</button>
-        <button role="menuitem" class="c-card__control" disabled>Faire un répertoire personnalisé</button>
-        <button role="menuitem" class="c-card__control c-card__control--active">Menu item active</button>
-      </div>
 
       <div class="o-form-element">
         <label class="c-label" for="title">Titre:</label>
-        <input id="nickname" placeholder="Titre de la chanson" class="c-field">
+        <input id="title" placeholder="Titre de la chanson" class="c-field">
       </div>
       <div class="o-form-element">
         <label class="c-label" for="author">Auteur:</label>
-        <input id="nickname" placeholder="Auteur de la chanson" class="c-field">
+        <input id="author" placeholder="Auteur de la chanson" class="c-field">
       </div>
 
-      <div class="">
+      <div class="o-form-element">
         <label class="c-label" for="lyrics">Paroles de la chanson:</label>
-          <textarea class="c-field" placeholder="Paroles de la chanson"></textarea>
+          <textarea id="content" class="c-field" placeholder="Paroles de la chanson"></textarea>
       </div>
-			<script src="https://tahitoaa.github.io/songbookreadme/js/main.js" type="text/javascript"></script>
+
+      <button type="button" class="c-button c-button--success" onclick="addChord()">Do</button>
+      <button type="button" class="c-button c-button--success" onclick="generate()">Générer la chanson</button>
+
+      <div>
+        <label class="c-label" for="lyrics">Code généré pour la chanson:</label>
+        <blaze-panel id="result" height="350">
+        </blaze-panel>
+      </div>
+
+
+			<!-- script src="https://tahitoaa.github.io/songbookreadme/js/main.js" type="text/javascript"></script-->
     </body>
 </html>
