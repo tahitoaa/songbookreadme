@@ -1,0 +1,51 @@
+\documentclass[12pt,twoside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{ae,lmodern}
+\usepackage{xcolor}
+\usepackage[chorded]{songs}
+\usepackage{hyperref}\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+\usepackage{xfp}
+\usepackage{verbatim} 
+\usepackage{xargs}
+%\usepackage{showframe}
+
+
+%%%%%%%%%%%% Page Layout %%%%%%%%%%
+\oddsidemargin=0cm
+\evensidemargin=0cm
+\topmargin=0cm
+\textwidth=18cm
+% \textheight=700pt
+\marginparwidth=10pt
+% \hoffset=-0.2in
+% \voffset=-0.6in
+\columnsep=1cm
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%      Song layout
+\definecolor{dollarbill}{rgb}{0.52, 0.73, 0.4}
+\definecolor{yellow-green}{rgb}{0.6, 0.8, 0.2}
+\renewcommand\snumbgcolor{yellow-green}
+% Chords Font
+%\renewcommand{\printchord}[1]{\rmfamily\bf#1}
+\renewcommand\printchord[1]{{\color{gray}\sffamily#1}}
+% \renewcommand{\lyricfont}{\sffamily}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noversenumbers
+\title{H\={\i}mene T\=atou}
+\author{ }
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%      Indexes files location
+\renewcommand{\idxbgcolor}{yellow-green}
+\newindex{titlidx}{struct/indexes/titlfile}
+\newauthorindex{authidx}{struct/indexes/authfile}
+
+\begin{document}

@@ -1,0 +1,10 @@
+\input{macros}
+\debut
+
+\updateIdx{titlidx} %% Compilateur=LuaLaTex
+\directlua{
+tex.write(\showindex[1]{Index of Song Titles}{titlidx})
+tex.write(\showindex[2]{Index of Song Authors}{authidx})
+}
+\end{document}
+

@@ -1,0 +1,54 @@
+
+\documentclass[a6paper]{article}
+\usepackage[margin=5mm]{geometry}
+\usepackage{tgheros}
+\usepackage[chorded]{songs}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{ae,lmodern}
+\usepackage{xcolor}
+\usepackage{hyperref}\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+\usepackage{xfp}
+%\usepackage{showframe}
+
+
+%%%%%%%%%%%% Page Layout %%%%%%%%%%
+\oddsidemargin=0cm
+\evensidemargin=0cm
+\topmargin=0cm
+\textwidth=9.5cm
+% \textheight=700pt
+\marginparwidth=0cm
+\hoffset=-2cm
+\voffset=-3.5cm
+\columnsep=0.1cm
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%      Song layout
+\definecolor{dollarbill}{rgb}{0.52, 0.73, 0.4}
+\definecolor{yellow-green}{rgb}{0.6, 0.8, 0.2}
+\renewcommand\snumbgcolor{yellow-green}
+\renewcommand\printchord[1]{{\color{gray}#1}}
+% Chords Font
+%\renewcommand{\printchord}[1]{\rmfamily\bf#1}
+\renewcommand{\lyricfont}{\sffamily}
+\noversenumbers
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%      Indexes files location
+\renewcommand{\idxbgcolor}{yellow-green}
+\newindex{titlidx}{struct/indexes/titlfile}
+\newauthorindex{authidx}{struct/indexes/authfile}
+
+\begin{document}
+
+\renewcommand*\familydefault{\rmdefault}
+
+\title{H\={\i}mene T\=atou}
+\author{ }
