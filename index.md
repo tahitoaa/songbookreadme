@@ -44,9 +44,6 @@ Présentation du répertoire:
   - Application permettant d'extraire les notes de guitare ou ukulele depuis une vidéo youtube:
   
       https://chordify.net/
- - chansonduenua.net 
-
-<>## Test UI
-
-<>[test ui proto](TestUI.html)
-<>[test](test.html)
+      
+ - https://www.chansondufenua.pf/ un autre projet très similaire au notre.
+ 
