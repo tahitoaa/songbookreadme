@@ -1,7 +1,8 @@
 
+# Le Répertoire :
 
 * La dernière version du [HimeneTatou.pdf](HimeneTatou.pdf)  (8 juin 2020).
-* [NEW] La version Vini est maintenant disponnible : [HimeneTatouVini.pdf](HimeneTatouVini.pdf) (8 juin 2020).
+* La version Vini est maintenant disponnible : [HimeneTatouVini.pdf](HimeneTatouVini.pdf) (8 juin 2020).
 
 # Introduction
 
@@ -12,7 +13,6 @@ Dans notre projet on essaye de combiner les deux idées: faire un joli pdf avec 
 # Le projet 
 
 Pour participer il suffit de créer un compte overleaf en suivant [ce lien](https://fr.overleaf.com/9457921969mhjkwjdnycqj).
-
 
 # [Mode d'emploi](modedemploi.md)
 Présentation du répertoire:
