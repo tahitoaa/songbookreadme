@@ -9,7 +9,10 @@ Ce projet s'inspire directement du très bon [carnet de chant tahitiansongs](htt
 
 Dans notre projet on essaye de combiner les deux idées: faire un joli pdf avec des chansons que tout le monde peut ajouter, corriger. Notamment on pourra le personnaliser en transposant les chansons pour les adapter à sa voix.
 
+# Le projet 
+
 Pour participer il suffit de créer un compte overleaf en suivant [ce lien](https://fr.overleaf.com/9457921969mhjkwjdnycqj).
+
 
 # [Mode d'emploi](modedemploi.md)
 Présentation du répertoire:
